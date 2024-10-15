@@ -1,0 +1,16 @@
+Sistema de Reservas
+Descrição: Crie um sistema onde os usuários possam reservar horários para um restaurante.
+Funcionalidades:
+Sistema de cadastro e login
+CRUD de serviços e horários disponíveis
+Painel administrativo para gerenciar reservas
+
+
+
+
+Paginas:
+-cadastro
+-login
+-Pagina de fazer as reservas
+-CRUD
+-tabela de reservas

@@ -1,0 +1,340 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Cabeçalho e Navegação */
+.main-header {
+    background-color: #333;
+    color: white;
+}
+
+.navbar {
+    padding: 1rem 0;
+    background-color: #333;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-left: 43.5%;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    align-self: self-start;
+    margin-right: 2%;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+    color: #28a745;
+}
+
+/* Hero Section (Página Inicial) */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.btn {
+    background-color: #28a745;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+/* Seção Cardápio */
+.menu-section {
+    padding: 3rem 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.menu-section h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.menu-item {
+    background-color: white;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%;
+}
+
+.menu-item h3 {
+    margin-bottom: 1rem;
+}
+
+.menu-item p {
+    color: #666;
+}
+
+/* Sobre Nós */
+.sobrenos{
+    max-width: 600px;
+    margin: 30px auto; /* Centraliza o box */
+    background-color: #fff;
+    padding: 20px;
+}
+
+.about-section {
+    padding: 3rem 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about-section h2 {
+    margin-bottom: 1.5rem;
+}
+
+/* Rodapé */
+.footer {
+    padding: 2rem 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.footer h2 {
+    margin-bottom: 1rem;
+}
+
+.footer p {
+    margin-bottom: 0.5rem;
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-list li a:hover {
+    color: #28a745;
+}
+
+/* Hero Section (Reservas) */
+.reservas-hero {
+    background-image: url('reservas-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.reservas-hero .hero-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.reservas-hero .hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Formulário de Reservas */
+.reservas-section {
+    padding: 3rem 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.reservas-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #000;
+}
+
+.form-reserva {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #000;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #28a745;
+}
+
+/* Botão de Envio */
+.form-reserva .btn {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* Resultados */
+.resultadobom {
+    background-color: rgba(0, 128, 0, 0.199);
+    color: green;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.resultadoruim {
+    background-color: rgba(255, 0, 0, 0.233);
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* Estilo da Página de Login */
+.login-section {
+    padding: 3rem 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.login-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #000;
+}
+
+.form-login {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #000;
+}
+
+.form-login .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-login .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-login .form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-login .form-group input:focus {
+    outline: none;
+    border-color: #28a745;
+}
+
+/* Botão de Envio na Página de Login */
+.form-login .btn {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .menu-items {
+        flex-direction: column;
+    }
+
+    .hero-text h2, .reservas-hero .hero-text h2 {
+        font-size: 2rem;
+    }
+
+    .form-reserva, .form-login {
+        padding: 1.5rem;
+    }
+}
+.link{
+    color: #000; /* Cor preta */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.link:hover {
+    color: #008000; /* Cor cinza claro ao passar o mouse */
+}
+
+
